@@ -35,6 +35,7 @@ Directory Structure:
 
 21 directories, 8 files
 ```
+```
 Required libraries: 
 EasyDict==1.7
 opencv-python==3.4.1.15
@@ -46,7 +47,7 @@ json_tricks
 scikit-image
 tensorboardX>=1.2
 torchvision
-
+```
 Data Acquisition and Preprocessing: 
 To acquire the data, we fetch the data from the official COCO documentation. In our code, to fetch the script, simply run
 sh data_fetcher.sh
