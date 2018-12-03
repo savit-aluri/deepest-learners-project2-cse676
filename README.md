@@ -1,10 +1,11 @@
 Group : Deepest Learners
+```
 Savit Aluri - savitvar@buffalo.edu
 Harshal Anil Patil - harshala@buffalo.edu
 Avinash Kommineni - akommine@buffalo.edu
-
+```
 ***** RUNNING THE PROJECT *******
-
+```
 Directory Structure:
 .
 ├── data
@@ -33,7 +34,7 @@ Directory Structure:
 └── running_main.ipynb
 
 21 directories, 8 files
-
+```
 Required libraries: 
 EasyDict==1.7
 opencv-python==3.4.1.15
@@ -54,8 +55,10 @@ This fetches the data and organizes the data into structures.
 
 Training: 
 Then we just get to the root folder and run:
-python pose_estimation/train.py --cfg experiments/coco/resnet50/256x256_d256x3_adam_lr1e-3.yaml
 
+```
+python pose_estimation/train.py --cfg experiments/coco/resnet50/256x256_d256x3_adam_lr1e-3.yaml
+```
 The configuration for the network can be found at network/
 
 The weights are learnt and can be found in network/weights/ as vgg19-dcbb9e9d.pth
